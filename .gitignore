@@ -1,7 +1,7 @@
 # Ignore Python virtual environments
 CuisineCompass/Backend/venv/
 
-.env
+./CuisineCompass/Backend/.envi
 
 # Ignore log files
 *.log
