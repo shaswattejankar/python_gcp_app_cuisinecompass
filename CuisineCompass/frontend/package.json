@@ -1,0 +1,45 @@
+{
+  "name": "frontend",
+  "proxy": "http://localhost:8000",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "npm@10.9.1+sha512.c89530d37c4baa38afd43e76a077a84b9aa63840b986426584fd5c5a54ab0a0b21bb1595c851042b733784b0b43706d36a494b4d8ae1a086a762cb8d3f95942a",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

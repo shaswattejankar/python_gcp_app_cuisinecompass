@@ -1,0 +1,23 @@
+.heading{
+  background-color: #fdffe18a;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.restaurant-list {
+  margin-top: 2rem;
+}
+
+/* Add responsive design */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding: 1rem;
+  }
+}
