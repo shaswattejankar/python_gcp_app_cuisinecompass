@@ -1,9 +1,0 @@
-# Ignore Python virtual environments
-CuisineCompass/Backend/venv/
-
-# Ignore log files
-*.log
-
-# Ignore compiled Python files
-__pycache__/
-*.pyc
